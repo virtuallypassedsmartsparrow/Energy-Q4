@@ -68,7 +68,7 @@ var names = { //choose how to write variable string.
     L: "L",
     r: "r",
     m: "m",
-    k: "k>",
+    k: "k",
     theta_deg: "&#x03B8",
     theta_rad: "&#x03B8",
     I_o: "I<sub>o</sub>",
@@ -77,10 +77,10 @@ var names = { //choose how to write variable string.
     w1: "&#03C9<sub>1</sub>",
     h2u: "h<sub>2</sub>",
     x2u: "x<sub>2</sub>",
-    w2u: "&#03C9<sub>2</sub>",
+    w2u: "&#969<sub>2</sub>",
     h2d: "h<sub>2</sub>",
     x2d: "x<sub>2</sub>",
-    w2d: "&#03C9<sub>2</sub>",
+    w2d: "&#969<sub>2</sub>",
 
 };
 
