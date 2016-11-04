@@ -308,11 +308,11 @@ function getShowVariables() {
                 case "30":
                 case "40": 
                 case "50":
-                case "51":
                 case "60":
-                case "61":
                 case "70":
-                case "71":
+                case "80":
+                case "90":
+                case "100":
                     return ["L", "r", "theta_deg", "m", "I_o", "x_0", "k"];
                     break;
             }
@@ -329,13 +329,17 @@ function getShowVariables() {
                     break;
                 case "40":
                 case "50":
-                case "51":
                 case "60":
-                case "61":
                     return ["h1", "x1"];
                     break;
                 case "70":
-                case "71":
+                    return ["h1", "x1", "w1"];
+                    break;
+                case "80":
+                case "90":
+                    return ["h1", "x1"];
+                    break;
+                case "100":
                     return ["h1", "x1", "w1"];
                     break;
             }
@@ -348,17 +352,19 @@ function getShowVariables() {
                 case "30":
                 case "40":
                 case "50":
-                case "51":
                 case "60":
                     return ["h2u"];
-                    break;  
-                case "61":
-                    return ["h2d"];
                     break;
                 case "70":
                     return ["h2u", "x2u"];
                     break;
-                case "71":
+                case "80":
+                    return [];
+                    break;
+                case "90":
+                    return ["h2d"];
+                    break;
+                case "100":
                     return ["h2d", "x2d"];
                     break;
             }
