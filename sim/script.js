@@ -64,7 +64,7 @@ var names = { //choose how to write variable string.
     // X: "X",
     // T: "T",
     // V_G: "V<sub>G</sub>",
-    x_0: "x<sub>0</sub>",
+    x_0: "x<sub>o</sub>",
     L: "L",
     r: "r",
     m: "m",
