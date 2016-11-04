@@ -183,9 +183,9 @@ model.on("change:k", function() {
 model.on("change:theta_deg", function() {
     draw();
 });
-// model.on("change:page", function() {
-//     draw();
-// });
+model.on("change:page", function() {
+    draw();
+});
 
 // This is JQuery right? 
 $("#selectBox").change(function() {
