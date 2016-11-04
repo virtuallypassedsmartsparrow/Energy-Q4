@@ -159,7 +159,7 @@ pipit.CapiAdapter.expose('x2u', model);
 pipit.CapiAdapter.expose('w2u', model);
 pipit.CapiAdapter.expose('h2d', model);
 pipit.CapiAdapter.expose('x2d', model);
-pipit.CapiAdapter.expose('wd2', model);
+pipit.CapiAdapter.expose('w2d', model);
 
 //this gets the values from Smart Sparrow. So does that mean I need to put inputs into Smart Sparrow variable tab? Either way, I'm sure these are just the inputs
 //I think I can place M R theta_deg in variables. Then make pages # in iniitial state. Then i'm done??!
