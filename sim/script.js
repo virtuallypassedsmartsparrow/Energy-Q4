@@ -342,6 +342,8 @@ function getShowVariables() {
                 case "30":
                 case "40":
                 case "50":
+                    return [];
+                    break;
                 case "60":
                     return ["h2u"];
                     break;
