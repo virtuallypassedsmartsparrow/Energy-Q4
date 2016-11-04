@@ -278,11 +278,11 @@ function calculateVariables() {
 
     values.h2u = values.r / 2;
     values.x2u = values.L - values.r - values.x_0;
-    values.w2u = Math.sqrt(2/values.I_o) * Math.sqrt(values.m * 9.81 * (values.h1 - values.h2u) + values.k * (values.x1 * values.x1 - values.x2u * values.x2u));
+    values.w2u = Math.sqrt(2/values.I_o) * Math.sqrt(values.m * 9.81 * (values.h1 - values.h2u) + 0.5 * values.k * (values.x1 * values.x1 - values.x2u * values.x2u));
 
     values.h2d = - values.r / 2;
     values.x2d = values.L + values.r - values.x_0;
-    values.w2d = Math.sqrt(2/values.I_o) * Math.sqrt(values.m * 9.81 * (values.h1 - values.h2d) + values.k * (values.x1 * values.x1 - values.x2d * values.x2d));
+    values.w2d = Math.sqrt(2/values.I_o) * Math.sqrt(values.m * 9.81 * (values.h1 - values.h2d) + 0.5 * values.k * (values.x1 * values.x1 - values.x2d * values.x2d));
 
 
     // Round values into valuesRounded
