@@ -74,7 +74,7 @@ var names = { //choose how to write variable string.
     I_o: "I<sub>o</sub>",
     h1: "h<sub>1</sub>",
     x1: "x<sub>1</sub>",
-    w1: "&#03C9<sub>1</sub>",
+    w1: "&#969<sub>1</sub>",
     h2u: "h<sub>2</sub>",
     x2u: "x<sub>2</sub>",
     w2u: "&#969<sub>2</sub>",
